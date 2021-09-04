@@ -23,22 +23,22 @@ Existing halftoning algorithms usually drop colors and fine details when ditheri
 2. Training:
     * Place your training set/validation set under `dataset/` per the exampled file organization. Download our preprocessed full dataset [Here](coming soon).
     * Warm-up stage (optional):
-	```bash
-	python train_warm.py --config scripts/invhalf_warm.json
-	```
+	  ```bash
+	  python train_warm.py --config scripts/invhalf_warm.json
+	  ```
 	If this stage skipped, please download the pretrained warm-up weight [here](https://drive.google.com/file/d/1GMRkqeNJtygoZsPy2toibuoZpcWhep6h/view?usp=sharing), and place it in `checkpoints/` that will be loaded at joint-train stage.
     * Joint-train stage:
-	```bash
-	python train.py --config scripts/invhalf_full.json
-	```
+	  ```bash
+	  python train.py --config scripts/invhalf_full.json
+	  ```
 
 3. Testing:
 	* Download the [pretrained weight](https://drive.google.com/file/d/1kw-FoS8lF_tgdiCkGG51UaUtmCcFvKiD/view?usp=sharing) below and put it under `checkpoints/`.
     * Place your images in any accesible directory, e.g. `test_imgs/`.
     * Dither the input images and restore from the generated halftones
-	```bash
-	python inference_fast.py --model checkpoints/model_best.pth.tar --data_dir ./test_imgs --save_dir ./result
-	```
+		```bash
+		python inference_fast.py --model checkpoints/model_best.pth.tar --data_dir ./test_imgs --save_dir ./result
+		```
 
 
 ## Copyright and License
