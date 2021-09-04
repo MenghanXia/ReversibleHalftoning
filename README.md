@@ -6,7 +6,7 @@
 Existing halftoning algorithms usually drop colors and fine details when dithering color images with binary dot patterns, which makes it extremely difficult to recover the original information. To dispense the recovery trouble in future, we propose a novel halftoning technique that dithers a color image into binary halftone with decent restorability to the original input. The key idea is to implicitly embed those previously dropped information into the binary dot patterns. So, the halftone pattern not only serves to reproduce the image tone, maintain the blue-noise randomness, but also represents the color information and fine details. See the examples illustrated below.
 
 <div align="center">
-	<img src="img/invertible_halftone.png" width="95%">
+	<img src="img/demo.JPG" width="95%">
 </div>
 
 
