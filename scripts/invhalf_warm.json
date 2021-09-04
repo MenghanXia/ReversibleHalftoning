@@ -1,0 +1,39 @@
+{
+    "name": "invhalf_warmup",
+    "model": "ResHalf",
+	"data_dir": "dataset/",
+	"save_dir": "./",
+    "trainer": {
+        "epochs": 1000,
+        "save_epochs": 5
+    },
+    "data_loader": {
+        "dataset": "HalftoneVOC2012.json",
+        "special_set": "special_color.json",
+        "batch_size": 8,
+        "shuffle": true,
+        "num_workers": 32
+    },	
+    "quantizeLoss": "binL1",
+    "quantizeLossWeight": 0.2,
+    "toneLoss": "gaussianL2",
+    "toneLossWeight": 0.6,
+    "structureLoss": "ssimLoss",
+    "structureLossWeight": 0.0,
+    "blueNoiseLossWeight": 0.3,
+    "featureLossWeight": 1.0,
+    "cuda": true,
+    "multi-gpus": true,
+    "optimizer_type": "Adam",
+    "optimizer": {
+        "lr": 0.0001,
+        "weight_decay": 0
+    },
+    "lr_sheduler": {
+        "factor": 0.5,
+        "patience": 3,
+        "threshold": 1e-05,
+        "cooldown": 0
+    },
+    "seed": 131
+}

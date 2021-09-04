@@ -1,4 +1,4 @@
-Deep Halftoning with Reversible Binary Pattern
+Exploiting Aliasing for Manga Restoration
 
 Copyright (c) 2021 The Chinese University of Hong Kong
 
@@ -13,9 +13,9 @@ THE AUTHOR MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF THE S
 By using the source code, Licensee agrees to cite the following papers in
 Licensee's publication/work:
 
-  Menghan Xia, Wenbohu, Xueting Liu and Tien-Tsin Wong
-  "Deep Halftoning with Reversible Binary Pattern"
-  IEEE International Conference on Computer Vision (ICCV), 2021.
+  Minshan Xie, Menghan Xia and Tien-Tsin Wong
+  "Exploiting Aliasing for Manga Restoration"
+  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021.
 
 
 By using or copying the Software, Licensee agrees to abide by the intellectual property laws, and all other applicable laws of the U.S., and the terms of this license.
