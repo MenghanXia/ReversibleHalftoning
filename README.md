@@ -20,7 +20,7 @@ Existing halftoning algorithms usually drop colors and fine details when ditheri
       ```
 
 2. **Training**:
-    * Place your training set/validation set under `dataset/` per the exampled file organization. Or download [our preprocessed full dataset](coming soon).
+    * Place your training set/validation set under `dataset/` per the exampled file organization. Or download our [preprocessed full dataset](coming soon).
     * Warm-up stage (optional):
 	  ```bash
 	  python train_warm.py --config scripts/invhalf_warm.json
