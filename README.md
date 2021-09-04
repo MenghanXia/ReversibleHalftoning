@@ -16,9 +16,9 @@ Existing halftoning algorithms usually drop colors and fine details when ditheri
     * Install python3.7
     * Install [pytorch](https://pytorch.org/) (tested on Release 1.0.1)
     * Install python requirements:
-    ```bash
-       pip install -r requirement.yaml
-    ```
+      ```bash
+         pip install -r requirement.yaml
+      ```
 
 2. Training:
     * Place your training set/validation set under `dataset/` per the exampled file organization. Download our preprocessed full dataset [Here](coming soon).
@@ -36,9 +36,9 @@ Existing halftoning algorithms usually drop colors and fine details when ditheri
 	* Download the [pretrained weight](https://drive.google.com/file/d/1kw-FoS8lF_tgdiCkGG51UaUtmCcFvKiD/view?usp=sharing) below and put it under `checkpoints/`.
     * Place your images in any accesible directory, e.g. `test_imgs/`.
     * Dither the input images and restore from the generated halftones
-		```bash
-		python inference_fast.py --model checkpoints/model_best.pth.tar --data_dir ./test_imgs --save_dir ./result
-		```
+	  ```bash
+	  python inference_fast.py --model checkpoints/model_best.pth.tar --data_dir ./test_imgs --save_dir ./result
+	  ```
 
 
 ## Copyright and License
