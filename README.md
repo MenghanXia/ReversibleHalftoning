@@ -13,7 +13,7 @@ Existing halftoning algorithms usually drop colors and fine details when ditheri
 <!-- -------------------------------------------------------- -->
 ## Run 
 1. **Requirements**:
-    * Basic variant infomation: python3.7 and pytorch1.0.1.
+    * Basic variant infomation: Python 3.7 and Pytorch 1.0.1.
     * Create a virutal environment with satisfied requirements:
       ```bash
       conda env create -f requirement.yaml
