@@ -1,5 +1,5 @@
 # Deep Halftoning with Reversible Binary Pattern
-### [ICCV Paper](cvf_xxx.html) | [Project Website](tt_xxx.html) | [BibTex](#citation) 
+### [ICCV Paper](cvf_xx.html) | [Project Website](tt_xxx.html) | [BibTex](#citation) 
 
 <!-- ------------------------------------------------------------------------------ -->
 ## Overview
