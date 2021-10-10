@@ -1,5 +1,5 @@
 # Deep Halftoning with Reversible Binary Pattern
-### [ICCV Paper](http://www.cse.cuhk.edu.hk/~ttwong/papers/invhalftone/invhalftone.pdf) | [Project Website](https://www.cse.cuhk.edu.hk/~ttwong/papers/invhalftone/invhalftone.html) | [BibTex](#citation) 
+### [ICCV Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Xia_Deep_Halftoning_With_Reversible_Binary_Pattern_ICCV_2021_paper.html) | [Project Website](https://www.cse.cuhk.edu.hk/~ttwong/papers/invhalftone/invhalftone.html) | [BibTex](#citation) 
 
 <!-- ------------------------------------------------------------------------------ -->
 ## Overview
