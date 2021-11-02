@@ -10,7 +10,8 @@ Existing halftoning algorithms usually drop colors and fine details when ditheri
 	<img src="examples/demo.JPG" width="95%">
 </div>
 
-[New] Try your own images via [online demo](https://replicate.ai/menghanxia/reversiblehalftoning)
+
+**[New] Try your own images via [online demo](https://replicate.ai/menghanxia/reversiblehalftoning)**
 
 <!-- -------------------------------------------------------- -->
 ## Run 
