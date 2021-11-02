@@ -39,7 +39,8 @@ Existing halftoning algorithms usually drop colors and fine details when ditheri
 	  ```bash
 	  python inference_fast.py --model checkpoints/model_best.pth.tar --data_dir ./test_imgs --save_dir ./result
 	  ```
-
+4. **Online Demo**：
+	* A fast way to test our model on your own images: [online demo](https://replicate.ai/menghanxia/reversiblehalftoning)
 
 ## Copyright and License
 You are granted with the [LICENSE](./LICENSE) for both academic and commercial usages.
