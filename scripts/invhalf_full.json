@@ -1,6 +1,6 @@
 {
     "name": "invhalf_full",
-    "initial_ckpt": "checkpoints/model_warmt.pth.tar",
+    "initial_ckpt": "checkpoints/model_warm.pth.tar",
     "model": "ResHalf",
 	"data_dir": "dataset/",
 	"save_dir": "./",
