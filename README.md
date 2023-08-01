@@ -1,6 +1,7 @@
 # Deep Halftoning with Reversible Binary Pattern
 ### [ICCV Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Xia_Deep_Halftoning_With_Reversible_Binary_Pattern_ICCV_2021_paper.html) | [Project Website](https://www.cse.cuhk.edu.hk/~ttwong/papers/invhalftone/invhalftone.html) | [BibTex](#citation) 
-<a href="https://replicate.ai/menghanxia/reversiblehalftoning"><img src="https://img.shields.io/static/v1?label=Replicate&message=Demo and Docker Image&color=blue"></a>
+<a href="https://replicate.ai/menghanxia/reversiblehalftoning"><img src="https://img.shields.io/static/v1?label=Replicate&message=Demo and Docker Image&color=blue"></a> 
+[![Huggingface ReversibleHalftoning](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/menghanxia/ReversibleHalftoning)
 
 <!-- ------------------------------------------------------------------------------ -->
 ## Overview
@@ -10,7 +11,6 @@ Existing halftoning algorithms usually drop colors and fine details when ditheri
 	<img src="examples/demo.JPG" width="95%">
 </div>
 
-**You can try your own images at this [online demo](https://replicate.ai/menghanxia/reversiblehalftoning)**
 
 <!-- -------------------------------------------------------- -->
 ## Run 
@@ -37,9 +37,13 @@ Existing halftoning algorithms usually drop colors and fine details when ditheri
 3. **Testing**:
 	* Download the [pretrained weight](https://drive.google.com/file/d/1kw-FoS8lF_tgdiCkGG51UaUtmCcFvKiD/view?usp=sharing) below and put it under `checkpoints/`.
     * Place your images in any accesible directory, e.g. `test_imgs/`.
-    * Dither the input images and restore from the generated halftones
+    * [Halftoning]: Dither the input images into binary halftones
 	  ```bash
-	  python inference_fast.py --model checkpoints/model_best.pth.tar --data_dir ./test_imgs --save_dir ./result
+	  python inference.py --model checkpoints/model_best.pth.tar --data_dir ./test_imgs --save_dir ./result
+	  ```
+	* [Restoration]: Restore the generated halftone back to RGB images
+	  ```bash
+	  python inference.py --model checkpoints/model_best.pth.tar --data_dir ./test_imgs --save_dir ./result --decoding
 	  ```
 
 ## Copyright and License
